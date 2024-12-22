@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4028f524b4e294c4f9871df0403c9093, type: 3}
+  m_Name: Prototype
+  m_EditorClassIdentifier: 
+  Biome: Prototype
+  ID: 0
+  enemyPool:
+  - enemyDifficulty: 1
+    EnemyPrefab: {fileID: 3822209977320137134, guid: 9627545ff0f205943b0c823c90920c4c, type: 3}
+  - enemyDifficulty: 2
+    EnemyPrefab: {fileID: 6371963957542509434, guid: 698f260f502ad2a45a4eaa53c4f9901f, type: 3}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ae8d58882f2726419e0f89057d23ec5, type: 3}
+  m_Name: The End World
+  m_EditorClassIdentifier: 
+  worldName: The End
+  SideRoomChance: 8
+  MainPathLength: 6
+  difficulty: 2
+  MinPuzzleRoom: 2
+  MaxPuzzleRoom: 4
+  MinRewardRoom: 2
+  MaxRewardRoom: 4
+  biomePool:
+  - {fileID: 11400000, guid: 1657a2faebaa15541a310df39185a9c0, type: 2}
+  floors:
+  - {fileID: 11400000, guid: 968fb6188e6bcd54db8a47f3f2433e0a, type: 2}
+  - {fileID: 11400000, guid: 324b7b736a21a96449be6c21c5aa02fb, type: 2}

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d80e9b5b9ed1e4bbb4fc0331475d76, type: 3}
+  m_Name: Table
+  m_EditorClassIdentifier: 
+  prefabList:
+  - name: desk
+    prefab: {fileID: 5218740577538515439, guid: d2b515a62183ade4b88daaf98c04f861, type: 3}
+  - name: Desk 1
+    prefab: {fileID: 3973070289630082747, guid: 10ed63098c0dcc74fa06cfed664d5982, type: 3}
+  - name: Desk 2
+    prefab: {fileID: 113240579807621590, guid: c5b440bf093861746be0e12fdd2e7b9d, type: 3}
+  - name: deskCorner
+    prefab: {fileID: 1135442848768992302, guid: b087c7e8275a19845827029d75acdde9, type: 3}
+  - name: Rounded Table A
+    prefab: {fileID: 14178176935057327, guid: 9ea4477c2657c1344a9f2468997586dd, type: 3}
+  - name: Rounded Table A 1
+    prefab: {fileID: 5507207079792365751, guid: 28061b0bfc5998a489b4ca7ba994fd5b, type: 3}
+  - name: Rounded Table B
+    prefab: {fileID: 6919339403754881069, guid: e5cbe34c02b17d44ea70e21ba51b341a, type: 3}
+  - name: Rounded Table B 1
+    prefab: {fileID: 2877201310324760720, guid: 27884986750463b4994d1ad5f58e112b, type: 3}
+  - name: Rounded Table C
+    prefab: {fileID: 8318359825827892230, guid: 8f96ce2f1fd49ae4bb283aad2ec845b8, type: 3}
+  - name: Rounded Table C 1
+    prefab: {fileID: 2608892370702726787, guid: 50b444a63f3fe1a45b6b6d6659ee911c, type: 3}
+  - name: sideTable
+    prefab: {fileID: 5115092227492620012, guid: b8d5bf8cd47dd2844a39fcbb0bcd4a6a, type: 3}
+  - name: sideTableDrawers
+    prefab: {fileID: 2685430803039868175, guid: d7044ed198d1fa5499f6a7579cda1d82, type: 3}
+  - name: table
+    prefab: {fileID: 2708772753976179263, guid: e9940fb0f6af8ae4b9409e239788eab4, type: 3}
+  - name: Table A
+    prefab: {fileID: 1149460689014105704, guid: 6713300d279adc449b878aae3f070018, type: 3}
+  - name: Table A 1
+    prefab: {fileID: 6442265580735859596, guid: 5e92b199a128542498de74e8f5820494, type: 3}
+  - name: Table B
+    prefab: {fileID: 7442518014004214570, guid: c771aa086e46de441a1231862027264d, type: 3}
+  - name: Table B 1
+    prefab: {fileID: 1168808750640542191, guid: def5790db4455fa49becb8286581af95, type: 3}
+  - name: Table C
+    prefab: {fileID: 1353681381762982653, guid: 280b242703fa3974fbc96d5301224d61, type: 3}
+  - name: Table C 1
+    prefab: {fileID: 5172200950543033110, guid: 4676355d3bd6b0241a718921e773d308, type: 3}
+  - name: Table D
+    prefab: {fileID: 6674380317075331146, guid: a6219a5a44b8252448f291b61107d07a, type: 3}
+  - name: Table D 1
+    prefab: {fileID: 4468815150628482688, guid: 7e6365c23d7dd14479592028359662fd, type: 3}
+  - name: table_low
+    prefab: {fileID: 9180996215784121029, guid: 9dc8f98a02969fe40a4230f04b66a08e, type: 3}
+  - name: table_medium
+    prefab: {fileID: 695659735560550312, guid: 65099e07a2805e74281278cbe8fe227f, type: 3}
+  - name: table_medium_long
+    prefab: {fileID: 2286506993678414484, guid: 20dd7d83286f0e54c9b2c69d5c1ea3be, type: 3}
+  - name: table_small
+    prefab: {fileID: 1308373993751103430, guid: c7a243d5bef137c4fa8b2e8dc239b0e6, type: 3}
+  - name: tableCloth
+    prefab: {fileID: 2566429313500838414, guid: 3a744c9984867dd4c9753b0474d5828e, type: 3}
+  - name: tableCoffee
+    prefab: {fileID: 4306044394382611770, guid: d517b962c756d0246bce814789ecc360, type: 3}
+  - name: tableCoffeeGlass
+    prefab: {fileID: 5716334342447970268, guid: 436bde7decc79c2498cb1690789b94c6, type: 3}
+  - name: tableCoffeeGlassSquare
+    prefab: {fileID: 37983975644453550, guid: ac119b26d0ff2cc48a8fa78decf7591f, type: 3}
+  - name: tableCoffeeSquare
+    prefab: {fileID: 9041558724920088599, guid: 9557707148d672c449b741f6a2bad262, type: 3}
+  - name: tableCross
+    prefab: {fileID: 5508444813506471316, guid: efd3ddd90fdea8c419ca7fe08b8d296a, type: 3}
+  - name: tableCrossCloth
+    prefab: {fileID: 2751496187125845590, guid: 888b53653b064224d955c2ab34e1f19a, type: 3}
+  - name: tableGlass
+    prefab: {fileID: 3294587433896057565, guid: d7793f6e625d52544bb6336f502f84fa, type: 3}
+  - name: tableRound
+    prefab: {fileID: 1947173313558169884, guid: f7aa34ce58b319c4a9345fba40831f6d, type: 3}

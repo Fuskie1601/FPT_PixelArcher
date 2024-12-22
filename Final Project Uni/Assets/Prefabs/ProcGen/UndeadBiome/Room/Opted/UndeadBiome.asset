@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e56ca48ea251c4c926a3dcb18d38c1, type: 3}
+  m_Name: UndeadBiome
+  m_EditorClassIdentifier: 
+  biomeName: Undead
+  GridSize: 150
+  GenericRoom:
+  - {fileID: 11400000, guid: c1ed6821eb11ddc4ab9433a4dedb40a5, type: 2}
+  - {fileID: 11400000, guid: ad2e9fee5d39c8849b25d4f1562936c9, type: 2}
+  - {fileID: 11400000, guid: 193157b902fef69498d88f32ceae7034, type: 2}
+  - {fileID: 11400000, guid: b3bc67a64f63ad744bdcc4c2dd444d5b, type: 2}
+  - {fileID: 11400000, guid: f6d7ff8e02620754fb1f7c087f527aca, type: 2}
+  - {fileID: 11400000, guid: 3e290e78b9e189a4abac122a6e80b33e, type: 2}
+  RewardRoom:
+  - {fileID: 11400000, guid: c067da7d7d5c2bd47861095f4eba48dd, type: 2}
+  - {fileID: 11400000, guid: 3d718db6bcf6ad74dbfbb207126b5177, type: 2}
+  - {fileID: 11400000, guid: c067da7d7d5c2bd47861095f4eba48dd, type: 2}
+  PuzzleRoom:
+  - {fileID: 11400000, guid: 6d478f29cc85ea94e99c437c1a140287, type: 2}
+  - {fileID: 11400000, guid: 0e5e4ab7b9d8c2b44bee94f4ca7805b5, type: 2}
+  BossRoom:
+  - {fileID: 11400000, guid: 9cbf44118792e8244bc3519d4a563c6e, type: 2}
+  startRoom: {fileID: 11400000, guid: 76ca18ab91b0f544fa8445a821e79bd8, type: 2}
+  exitRoom: {fileID: 11400000, guid: f5e5e8c62b9288747b10ae479b6cfbf2, type: 2}
+  skybox: {fileID: 2100000, guid: 32fb052d2dcb2624c8d0d136e5f122d4, type: 2}
+  lightSettings:
+    lightColor: {r: 1, g: 0.95686275, b: 0.8392157, a: 0}
+    intensity: 1
+    rotation: {x: 50, y: -30, z: 0}

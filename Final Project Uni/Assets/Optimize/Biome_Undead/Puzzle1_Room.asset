@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d41887b1546f5c44ab54e7e65aad3bc, type: 3}
+  m_Name: Puzzle1_Room
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 0
+  materialsAndUVRects:
+  - material: {fileID: 2100000, guid: 5fe0aebe85b574b4a94e74712f0aa915, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0625
+      y: 0.125
+      width: 0.125
+      height: 0.25
+    srcObjName: dungeon-pillar-stone-square (19)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 31b29cea830e0e24da72018652e5ed31, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0625
+      y: 0.625
+      width: 0.125
+      height: 0.25
+    srcObjName: dungeon-pillar-stone-square (19)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 64a4684ba67ced04c811f6174e678a22, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.3125
+      y: 0.125
+      width: 0.125
+      height: 0.25
+    srcObjName: dungeon-pillar-stone-edge (6)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 40a353f6117398145a3e785d9854de93, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.3125
+      y: 0.625
+      width: 0.125
+      height: 0.25
+    srcObjName: dungeon-floor-stone (69)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 66c05709e04ed42a3a537ad26aca9cb8, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5625
+      y: 0.125
+      width: 0.125
+      height: 0.25
+    srcObjName: dungeon-door-stone (19)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  resultMaterials:
+  - combinedMaterial: {fileID: 2100000, guid: 52e03efe25e1683408a73200c29565d7, type: 2}
+    considerMeshUVs: 0
+    sourceMaterials:
+    - {fileID: 2100000, guid: 66c05709e04ed42a3a537ad26aca9cb8, type: 2}
+    - {fileID: 2100000, guid: 40a353f6117398145a3e785d9854de93, type: 2}
+    - {fileID: 2100000, guid: 64a4684ba67ced04c811f6174e678a22, type: 2}
+    - {fileID: 2100000, guid: 31b29cea830e0e24da72018652e5ed31, type: 2}
+    - {fileID: 2100000, guid: 5fe0aebe85b574b4a94e74712f0aa915, type: 2}
+  resultMaterialsTexArray: []
+  doMultiMaterial: 1

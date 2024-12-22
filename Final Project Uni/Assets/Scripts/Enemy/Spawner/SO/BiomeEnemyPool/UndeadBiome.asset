@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4028f524b4e294c4f9871df0403c9093, type: 3}
+  m_Name: UndeadBiome
+  m_EditorClassIdentifier: 
+  Biome: Undead
+  ID: 0
+  enemyPool:
+  - enemyDifficulty: 1
+    EnemyPrefab: {fileID: 3822209977320137134, guid: 9627545ff0f205943b0c823c90920c4c, type: 3}
+  - enemyDifficulty: 1
+    EnemyPrefab: {fileID: 1878195371245659634, guid: f55a585904a0f3748a2ede27de83911a, type: 3}
+  - enemyDifficulty: 2
+    EnemyPrefab: {fileID: 6371963957542509434, guid: 698f260f502ad2a45a4eaa53c4f9901f, type: 3}
+  - enemyDifficulty: 2
+    EnemyPrefab: {fileID: 112112474686021948, guid: baea871511be78a4cba24d69acec177d, type: 3}
+  - enemyDifficulty: 1
+    EnemyPrefab: {fileID: 5064614399528492677, guid: b9fb11f25f119ee43918fe3cd9724dab, type: 3}
+  - enemyDifficulty: 2
+    EnemyPrefab: {fileID: 8713281444832825347, guid: f940d34ffadb60346876d6d8cf31d084, type: 3}
+  - enemyDifficulty: 0
+    EnemyPrefab: {fileID: 693711593557642127, guid: a4ee2289d676f034485c5e43b408e517, type: 3}
+  - enemyDifficulty: 1
+    EnemyPrefab: {fileID: 2110815119330872544, guid: 723fee11bb12fe84a959f8fdeccfe571, type: 3}
+  - enemyDifficulty: 4
+    EnemyPrefab: {fileID: 3501225884952012349, guid: e579f074758b5be429ca8563cd82b4f9, type: 3}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4028f524b4e294c4f9871df0403c9093, type: 3}
+  m_Name: UndeadBiomeBoss
+  m_EditorClassIdentifier: 
+  Biome: Undead
+  ID: 1
+  enemyPool:
+  - enemyDifficulty: 4
+    EnemyPrefab: {fileID: 3501225884952012349, guid: e579f074758b5be429ca8563cd82b4f9, type: 3}

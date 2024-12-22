@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee73d358cd6871489a891e0e0705898, type: 3}
+  m_Name: RecipeDatabase
+  m_EditorClassIdentifier: 
+  AllRecipes:
+  - RecipeID: Absorb_Crafting
+    RecipeName: Absorbtion
+    output: {fileID: 950779281863422348, guid: 7e7dbe87bcb0da745b9c5bef4c811c7e, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: 035fc4f5cb406b14a883029d8c0eb5ed, type: 2}
+      amount: 8
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 1
+    defaultUnlocked: 1
+  - RecipeID: Striking_Crafting
+    RecipeName: Striking
+    output: {fileID: 3236782565581453420, guid: 1b318348506f726418cc4a1c3959cdfa, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: 7a6c9fd63169d83479c76f2f0962cff8, type: 2}
+      amount: 8
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 1
+    defaultUnlocked: 0
+  - RecipeID: Athlete_Crafting
+    RecipeName: Athlete
+    output: {fileID: 1552744066718980063, guid: 0f2dd3025f15b2f408b831abee43860f, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: c5d6a9367928d114889d27ac83bf07aa, type: 2}
+      amount: 5
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 1
+    defaultUnlocked: 0
+  - RecipeID: Explosion_Expert_Crafting
+    RecipeName: Explosion_Expert
+    output: {fileID: 3482879533164945080, guid: 9946e546b70aca84aa508ec50dfa5c2c, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: 7c2e258738d04d246bb4f346470a8a87, type: 2}
+      amount: 8
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 2
+    defaultUnlocked: 0
+  - RecipeID: Precise_Archer_Crafting
+    RecipeName: Precise_Archer
+    output: {fileID: 387554970971609013, guid: f3a8a168846c3c84ea9f25e96c4f1d62, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: bbdb8a15ba13c3a4c86670c3b5a5d450, type: 2}
+      amount: 6
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 1
+    defaultUnlocked: 1
+  - RecipeID: Ricochet_Crafting
+    RecipeName: Ricochet
+    output: {fileID: 1552744066718980063, guid: ea18085e90b73094899e8aec25dc2c93, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: 3622c93eb35c31d42a1b77ddd1503ef4, type: 2}
+      amount: 4
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 1
+    defaultUnlocked: 0
+  - RecipeID: Skater_Crafting
+    RecipeName: Skater
+    output: {fileID: 2613780836743028748, guid: 6ec6a5622ec33dc47b5e74ec79711ec8, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: 991cfabbb40205c429e2cdcf4925c5c9, type: 2}
+      amount: 4
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 3
+    defaultUnlocked: 1
+  - RecipeID: Sonic_Crafting
+    RecipeName: Sonic
+    output: {fileID: 3482879533164945080, guid: f5b498dacffb83e498f4ed30b211e3cd, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: 5c5b9ca042dcfcb40a255a927400a8df, type: 2}
+      amount: 8
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 2
+    defaultUnlocked: 0
+  - RecipeID: Splitshot_Carfting
+    RecipeName: Splitshot
+    output: {fileID: 3482879533164945080, guid: 0d9254d45dbf8f147ba233b6a58ff197, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: d01d6c9c3419dd74387f01c83e0ba08a, type: 2}
+      amount: 7
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 2
+    defaultUnlocked: 0
+  - RecipeID: The_Force_Crafting
+    RecipeName: The Force
+    output: {fileID: 2283289535518846015, guid: 0594706ef5232c84e804e044ddfe84bb, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: b2b2d4a52a3e4c4448183ecaf464164b, type: 2}
+      amount: 6
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 1
+    defaultUnlocked: 0
+  - RecipeID: Trap_Master_Crafting
+    RecipeName: Trap Master
+    output: {fileID: 3482879533164945080, guid: 7ee8df878258bc6438fd7f2a1d1e442d, type: 3}
+    input:
+    - item: {fileID: 11400000, guid: d2a09e40eedbd3f408e7903f2865a499, type: 2}
+      amount: 8
+    - item: {fileID: 11400000, guid: 73f849afae6314d458b71e3de7c243ae, type: 2}
+      amount: 1
+    defaultUnlocked: 1

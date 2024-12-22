@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ae8d58882f2726419e0f89057d23ec5, type: 3}
+  m_Name: The Beginning World
+  m_EditorClassIdentifier: 
+  worldName: The Beginning
+  numberOfFloor: 2
+  SideRoomChance: 3
+  MainPathLength: 4
+  difficulty: 1
+  MinPuzzleRoom: 1
+  MaxPuzzleRoom: 2
+  MinRewardRoom: 1
+  MaxRewardRoom: 2
+  biomePool:
+  - {fileID: 11400000, guid: f01e09724bcc8a2418f131a8f7b22630, type: 2}
+  floors:
+  - {fileID: 11400000, guid: b2a080d915be4074583f65eb18437a03, type: 2}

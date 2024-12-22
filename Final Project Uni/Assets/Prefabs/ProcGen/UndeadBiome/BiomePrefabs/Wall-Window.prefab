@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2143499561464053220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 496837263362217788}
+  m_Layer: 0
+  m_Name: Wall-Window
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &496837263362217788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143499561464053220}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 39.26, y: 0.55592537, z: 4.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2593547088603728417}
+  - {fileID: 1608011425375783229}
+  - {fileID: 3672231988308353984}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &3841945087269660128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2593547088603728417}
+  - component: {fileID: 4842053297312165042}
+  - component: {fileID: 282191133347733833}
+  - component: {fileID: 7311698188046931874}
+  m_Layer: 0
+  m_Name: dungeon-door-stone (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2593547088603728417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841945087269660128}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.11999976, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 496837263362217788}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4842053297312165042
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841945087269660128}
+  m_Mesh: {fileID: 4300000, guid: 1a5de400178194a2389e9166e9bcd641, type: 3}
+--- !u!23 &282191133347733833
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841945087269660128}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 66c05709e04ed42a3a537ad26aca9cb8, type: 2}
+  - {fileID: 2100000, guid: 64a4684ba67ced04c811f6174e678a22, type: 2}
+  - {fileID: 2100000, guid: 64a4684ba67ced04c811f6174e678a22, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7311698188046931874
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841945087269660128}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1a5de400178194a2389e9166e9bcd641, type: 3}
+--- !u!1001 &1402769432816306127
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 496837263362217788}
+    m_Modifications:
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.067997
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0010746121
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0029999018
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7706956537837715140, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_Name
+      value: dungeon-wall-window-stone (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+--- !u!4 &1608011425375783229 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+  m_PrefabInstance: {fileID: 1402769432816306127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4022010285923757362
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 496837263362217788}
+    m_Modifications:
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.0100021
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0010746121
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0029999018
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7706956537837715140, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+      propertyPath: m_Name
+      value: dungeon-wall-window-stone (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+--- !u!4 &3672231988308353984 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 371387002605653746, guid: b3863d9b89dd10740b07fdd92994de3d, type: 3}
+  m_PrefabInstance: {fileID: 4022010285923757362}
+  m_PrefabAsset: {fileID: 0}

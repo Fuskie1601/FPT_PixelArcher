@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d41887b1546f5c44ab54e7e65aad3bc, type: 3}
+  m_Name: Reward1_Obs
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 0
+  materialsAndUVRects:
+  - material: {fileID: 2100000, guid: c48ed0c67054fc24da0ac1cced5a308c, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0625
+      y: 0.0625
+      width: 0.125
+      height: 0.125
+    srcObjName: rock-terrasse
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 40a353f6117398145a3e785d9854de93, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.3125
+      y: 0.0625
+      width: 0.125
+      height: 0.125
+    srcObjName: rock-terrasse
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 64a4684ba67ced04c811f6174e678a22, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5625
+      y: 0.0625
+      width: 0.125
+      height: 0.125
+    srcObjName: rubble-stone (3)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 6e3ac6e47b4d7a44685dfef9bf209413, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8125
+      y: 0.0625
+      width: 0.125
+      height: 0.125
+    srcObjName: torche
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 0901bd31274b7c24a907731fa5e16f5f, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0625
+      y: 0.3125
+      width: 0.125
+      height: 0.125
+    srcObjName: torche
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: f9c4a99059a34d842b70997d0245fde2, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0625
+      y: 0.5625
+      width: 0.125
+      height: 0.125
+    srcObjName: candlestick (9)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 0de74cacf6310c64ca1b6862ba4b219c, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0625
+      y: 0.8125
+      width: 0.125
+      height: 0.125
+    srcObjName: flag-medieval_big (4)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 4b6c16c8bf29c9e40bc66796d0674b6e, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.3125
+      y: 0.3125
+      width: 0.125
+      height: 0.125
+    srcObjName: flag-medieval_big (4)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 48b31daa83ddb854fadd9402702394e4, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5625
+      y: 0.3125
+      width: 0.125
+      height: 0.125
+    srcObjName: flag-medieval_big (4)
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  resultMaterials:
+  - combinedMaterial: {fileID: 2100000, guid: cda7d4dd7905c1942b322806783dc437, type: 2}
+    considerMeshUVs: 0
+    sourceMaterials:
+    - {fileID: 2100000, guid: 48b31daa83ddb854fadd9402702394e4, type: 2}
+    - {fileID: 2100000, guid: 4b6c16c8bf29c9e40bc66796d0674b6e, type: 2}
+    - {fileID: 2100000, guid: 0de74cacf6310c64ca1b6862ba4b219c, type: 2}
+    - {fileID: 2100000, guid: f9c4a99059a34d842b70997d0245fde2, type: 2}
+    - {fileID: 2100000, guid: 0901bd31274b7c24a907731fa5e16f5f, type: 2}
+    - {fileID: 2100000, guid: 6e3ac6e47b4d7a44685dfef9bf209413, type: 2}
+    - {fileID: 2100000, guid: 64a4684ba67ced04c811f6174e678a22, type: 2}
+    - {fileID: 2100000, guid: 40a353f6117398145a3e785d9854de93, type: 2}
+    - {fileID: 2100000, guid: c48ed0c67054fc24da0ac1cced5a308c, type: 2}
+  resultMaterialsTexArray: []
+  doMultiMaterial: 1

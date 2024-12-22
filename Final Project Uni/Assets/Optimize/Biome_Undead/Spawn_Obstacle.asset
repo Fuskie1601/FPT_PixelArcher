@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d41887b1546f5c44ab54e7e65aad3bc, type: 3}
+  m_Name: Spawn_Obstacle
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 0
+  materialsAndUVRects:
+  - material: {fileID: 2100000, guid: c48ed0c67054fc24da0ac1cced5a308c, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.125
+      width: 0.25
+      height: 0.25
+    srcObjName: ObstacleMesh
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: f9c4a99059a34d842b70997d0245fde2, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.625
+      y: 0.125
+      width: 0.25
+      height: 0.25
+    srcObjName: ObstacleMesh
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 0901bd31274b7c24a907731fa5e16f5f, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.625
+      width: 0.25
+      height: 0.25
+    srcObjName: ObstacleMesh
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  resultMaterials:
+  - combinedMaterial: {fileID: 2100000, guid: 3e162ed1027430642a87d645ab47d22b, type: 2}
+    considerMeshUVs: 0
+    sourceMaterials:
+    - {fileID: 2100000, guid: 0901bd31274b7c24a907731fa5e16f5f, type: 2}
+    - {fileID: 2100000, guid: f9c4a99059a34d842b70997d0245fde2, type: 2}
+    - {fileID: 2100000, guid: c48ed0c67054fc24da0ac1cced5a308c, type: 2}
+  resultMaterialsTexArray: []
+  doMultiMaterial: 1

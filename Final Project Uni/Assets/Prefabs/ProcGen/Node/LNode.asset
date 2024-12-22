@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59678b6b16dab6b4dbe5854e2f897213, type: 3}
+  m_Name: LNode
+  m_EditorClassIdentifier: 
+  Name: L
+  Prefab: {fileID: 7076486627113135764, guid: c1cd1a90f8e7269408370b167d5bc006, type: 3}
+  Top:
+    CompatibleNodes: []
+  Bottom:
+    CompatibleNodes: []
+  Left:
+    CompatibleNodes:
+    - {fileID: 11400000, guid: 5e92ae68a7b4f9549be692bb845e7378, type: 2}
+    - {fileID: 11400000, guid: a8184b9c363d4ea42ad531c7debbf622, type: 2}
+    - {fileID: 11400000, guid: eb1e2e3e68b02ae4ab4268f3837860b5, type: 2}
+  Right:
+    CompatibleNodes: []
